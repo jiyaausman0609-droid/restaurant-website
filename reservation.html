@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reservation | Bella Restaurant</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                Bella Restaurant
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="reservation.html">
+                            Reservation
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-warning" href="reservation.html">
+                            Book a Table
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ================= RESERVATION HERO ================= -->
+    <section class="page-hero reservation-hero">
+
+        <div class="container">
+
+            <div class="page-hero-content text-center">
+
+                <p class="section-subtitle">Reservation</p>
+
+                <h1>Reserve Your Table</h1>
+
+                <p>
+                    Book your table at Bella Restaurant and enjoy
+                    a memorable dining experience.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= RESERVATION FORM ================= -->
+    <section class="reservation-section py-5">
+
+        <div class="container">
+
+            <div class="row g-5 align-items-center">
+
+                <!-- Left Information -->
+                <div class="col-lg-5">
+
+                    <div class="reservation-info">
+
+                        <p class="section-subtitle">
+                            Book With Us
+                        </p>
+
+                        <h2>
+                            Your Table Is Waiting
+                        </h2>
+
+                        <p>
+                            Whether you are planning a family dinner,
+                            a casual meal with friends, or a special
+                            evening, we are ready to welcome you.
+                        </p>
+
+                        <div class="reservation-detail">
+                            <h4>Opening Hours</h4>
+
+                            <p>
+                                Monday - Friday: 11:00 AM - 10:00 PM
+                            </p>
+
+                            <p>
+                                Saturday - Sunday: 12:00 PM - 11:00 PM
+                            </p>
+                        </div>
+
+                        <div class="reservation-detail">
+                            <h4>Contact</h4>
+
+                            <p>
+                                +92 300 1234567
+                            </p>
+
+                            <p>
+                                info@bellarestaurant.com
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Right Form -->
+                <div class="col-lg-7">
+
+                    <div class="reservation-form">
+
+                        <h3>Make a Reservation</h3>
+
+                        <p>
+                            Please fill out the form below to reserve
+                            your table.
+                        </p>
+
+                        <form id="reservationForm">
+
+                            <div class="row g-3">
+
+                                <!-- Name -->
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">
+                                        Full Name
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        class="form-control"
+                                        placeholder="Enter your name"
+                                        required>
+                                </div>
+
+
+                                <!-- Email -->
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">
+                                        Email Address
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        class="form-control"
+                                        placeholder="Enter your email"
+                                        required>
+                                </div>
+
+
+                                <!-- Phone -->
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label">
+                                        Phone Number
+                                    </label>
+
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        class="form-control"
+                                        placeholder="Enter your phone"
+                                        required>
+                                </div>
+
+
+                                <!-- Guests -->
+                                <div class="col-md-6">
+                                    <label for="guests" class="form-label">
+                                        Number of Guests
+                                    </label>
+
+                                    <select id="guests"
+                                            class="form-select"
+                                            required>
+
+                                        <option value="">
+                                            Select guests
+                                        </option>
+
+                                        <option value="1">1 Guest</option>
+                                        <option value="2">2 Guests</option>
+                                        <option value="3">3 Guests</option>
+                                        <option value="4">4 Guests</option>
+                                        <option value="5">5 Guests</option>
+                                        <option value="6">6 Guests</option>
+                                        <option value="7">7 Guests</option>
+                                        <option value="8">8 Guests</option>
+
+                                    </select>
+                                </div>
+
+
+                                <!-- Date -->
+                                <div class="col-md-6">
+                                    <label for="date" class="form-label">
+                                        Date
+                                    </label>
+
+                                    <input
+                                        type="date"
+                                        id="date"
+                                        class="form-control"
+                                        required>
+                                </div>
+
+
+                                <!-- Time -->
+                                <div class="col-md-6">
+                                    <label for="time" class="form-label">
+                                        Time
+                                    </label>
+
+                                    <select id="time"
+                                            class="form-select"
+                                            required>
+
+                                        <option value="">
+                                            Select time
+                                        </option>
+
+                                        <option>12:00 PM</option>
+                                        <option>1:00 PM</option>
+                                        <option>2:00 PM</option>
+                                        <option>5:00 PM</option>
+                                        <option>6:00 PM</option>
+                                        <option>7:00 PM</option>
+                                        <option>8:00 PM</option>
+                                        <option>9:00 PM</option>
+
+                                    </select>
+                                </div>
+
+
+                                <!-- Special Request -->
+                                <div class="col-12">
+
+                                    <label for="message"
+                                           class="form-label">
+                                        Special Request
+                                    </label>
+
+                                    <textarea
+                                        id="message"
+                                        class="form-control"
+                                        rows="4"
+                                        placeholder="Any special request?"></textarea>
+
+                                </div>
+
+
+                                <!-- Submit -->
+                                <div class="col-12">
+
+                                    <button
+                                        type="submit"
+                                        class="btn btn-warning">
+                                        Reserve My Table
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= WHY RESERVE ================= -->
+    <section class="reservation-benefits py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <p class="section-subtitle">
+                    Why Reserve?
+                </p>
+
+                <h2>
+                    Make Your Visit Special
+                </h2>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="benefit-card">
+
+                        <h4>Guaranteed Table</h4>
+
+                        <p>
+                            Reserve in advance and have your table
+                            ready when you arrive.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="benefit-card">
+
+                        <h4>Perfect for Groups</h4>
+
+                        <p>
+                            Plan a comfortable dining experience
+                            for your family and friends.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="benefit-card">
+
+                        <h4>Special Occasions</h4>
+
+                        <p>
+                            Celebrate birthdays, dinners, and
+                            memorable moments with us.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+    <section class="reservation-cta">
+
+        <div class="container">
+
+            <div class="reservation-cta-content text-center">
+
+                <p class="section-subtitle">
+                    Bella Restaurant
+                </p>
+
+                <h2>
+                    Good Food. Great Moments.
+                </h2>
+
+                <p>
+                    We look forward to welcoming you to Bella Restaurant.
+                </p>
+
+                <a href="menu.html" class="btn btn-warning">
+                    Explore Our Menu
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- Footer Start -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- Restaurant Info -->
+            <div class="col-lg-4 col-md-6">
+
+                <h3 class="footer-title">
+                    🍴 Bella Restaurant
+                </h3>
+
+                <p>
+                    Delicious food, warm hospitality, and memorable
+                    dining experiences for you and your family.
+                </p>
+
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-6">
+
+                <h4 class="footer-heading">
+                    Quick Links
+                </h4>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">Menu</a>
+                    </li>
+
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Opening Hours -->
+            <div class="col-lg-3 col-md-6">
+
+                <h4 class="footer-heading">
+                    Opening Hours
+                </h4>
+
+                <div class="opening-hours">
+
+                    <p>
+                        <span>Monday - Friday</span>
+                        <span>11 AM - 10 PM</span>
+                    </p>
+
+                    <p>
+                        <span>Saturday</span>
+                        <span>11 AM - 11 PM</span>
+                    </p>
+
+                    <p>
+                        <span>Sunday</span>
+                        <span>12 PM - 10 PM</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div class="col-lg-3 col-md-6">
+
+                <h4 class="footer-heading">
+                    Contact Us
+                </h4>
+
+                <p>
+                    📍 Main Boulevard, Lahore
+                </p>
+
+                <p>
+                    📞 +92 300 1234567
+                </p>
+
+                <p>
+                    ✉️ info@bellarestaurant.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom text-center">
+
+            <p>
+                © 2026 Bella Restaurant. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- Footer End -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>

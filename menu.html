@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu | Bella Restaurant</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                🍴 Bella Restaurant
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservation.html">Reservation</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-warning" href="reservation.html">
+                            Book a Table
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Menu Hero Start -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content text-center">
+
+                <p class="section-subtitle">Taste Something Delicious</p>
+
+                <h1>Our Menu</h1>
+
+                <p>
+                    Explore our delicious selection of freshly prepared dishes,
+                    made with quality ingredients and served with love.
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <!-- Menu Hero End -->
+
+    <!-- Menu Categories Start -->
+<section class="menu-categories py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <p class="section-subtitle">Explore Our Menu</p>
+
+            <h2>Our Specialties</h2>
+
+            <p class="section-description">
+                Discover some of our most loved dishes, freshly prepared
+                by our chefs.
+            </p>
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- Pizza -->
+            <div class="col-md-6 col-lg-4">
+                <div class="menu-category">
+
+                    <img src="pizza.jfif"
+                         alt="Fresh Pizza">
+
+                    <div class="menu-category-content">
+                        <h4>Pizza</h4>
+
+                        <p>
+                            Freshly baked pizza with delicious toppings
+                            and melted cheese.
+                        </p>
+
+                        <a href="#pizza-menu" class="btn btn-warning">
+                            View Pizza
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Burger -->
+            <div class="col-md-6 col-lg-4">
+                <div class="menu-category">
+
+                    <img src="burger.jpg"
+                         alt="Delicious Burger">
+
+                    <div class="menu-category-content">
+                        <h4>Burgers</h4>
+
+                        <p>
+                            Juicy burgers prepared with fresh ingredients
+                            and our special sauces.
+                        </p>
+
+                        <a href="#burger-menu" class="btn btn-warning">
+                            View Burgers
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Pasta -->
+            <div class="col-md-6 col-lg-4">
+                <div class="menu-category">
+
+                    <img src="pasta.jpg"
+                         alt="Creamy Pasta">
+
+                    <div class="menu-category-content">
+                        <h4>Pasta</h4>
+
+                        <p>
+                            Rich and flavorful pasta prepared with
+                            delicious homemade sauces.
+                        </p>
+
+                        <a href="#pasta-menu" class="btn btn-warning">
+                            View Pasta
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Steak -->
+            <div class="col-md-6 col-lg-4">
+                <div class="menu-category">
+
+                    <img src="steak.jpg"
+                         alt="Grilled Steak">
+
+                    <div class="menu-category-content">
+                        <h4>Steak</h4>
+
+                        <p>
+                            Tender grilled steak served with flavorful
+                            sides and sauces.
+                        </p>
+
+                        <a href="#steak-menu" class="btn btn-warning">
+                            View Steak
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Desserts -->
+            <div class="col-md-6 col-lg-4">
+                <div class="menu-category">
+
+                    <img src="desert.jpg"
+                         alt="Delicious Dessert">
+
+                    <div class="menu-category-content">
+                        <h4>Desserts</h4>
+
+                        <p>
+                            Sweet and beautifully prepared desserts
+                            to finish your meal.
+                        </p>
+
+                        <a href="#dessert-menu" class="btn btn-warning">
+                            View Desserts
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Drinks -->
+            <div class="col-md-6 col-lg-4">
+                <div class="menu-category">
+
+                    <img src="drinks.jpg"
+                         alt="Refreshing Drinks">
+
+                    <div class="menu-category-content">
+                        <h4>Drinks</h4>
+
+                        <p>
+                            Refreshing drinks and beverages to enjoy
+                            with your meal.
+                        </p>
+
+                        <a href="#drink-menu" class="btn btn-warning">
+                            View Drinks
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Menu Categories End -->
+
+<!-- Popular Dishes Start -->
+<section class="popular-dishes py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <p class="section-subtitle">Customer Favorites</p>
+
+            <h2>Popular Dishes</h2>
+
+            <p class="section-description">
+                Some of the dishes our customers love the most.
+            </p>
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- Dish 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="dish-card">
+
+                    <img src="pizza.jpg" alt="Margherita Pizza">
+
+                    <div class="dish-content">
+
+                        <div class="dish-header">
+                            <h4>Margherita Pizza</h4>
+                            <span>Rs 1,400</span>
+                        </div>
+
+                        <p>
+                            Fresh tomato sauce, mozzarella cheese,
+                            basil and our homemade pizza dough.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Dish 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="dish-card">
+
+                    <img src="burger.jpg" alt="Classic Beef Burger">
+
+                    <div class="dish-content">
+
+                        <div class="dish-header">
+                            <h4>Classic Beef Burger</h4>
+                            <span>Rs 850</span>
+                        </div>
+
+                        <p>
+                            Juicy beef patty with fresh lettuce,
+                            tomato, cheese and special sauce.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Dish 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="dish-card">
+
+                    <img src="pasta.jpg" alt="Creamy Alfredo Pasta">
+
+                    <div class="dish-content">
+
+                        <div class="dish-header">
+                            <h4>Alfredo Pasta</h4>
+                            <span>Rs 1,100</span>
+                        </div>
+
+                        <p>
+                            Creamy homemade sauce with pasta,
+                            parmesan cheese and fresh herbs.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Dish 4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="dish-card">
+
+                    <img src="steak.jpg" alt="Grilled Steak">
+
+                    <div class="dish-content">
+
+                        <div class="dish-header">
+                            <h4>Grilled Steak</h4>
+                            <span>Rs 2.800</span>
+                        </div>
+
+                        <p>
+                            Tender grilled steak served with
+                            roasted vegetables and potatoes.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Dish 5 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="dish-card">
+
+                    <img src="desert.jpg" alt="Chocolate Dessert">
+
+                    <div class="dish-content">
+
+                        <div class="dish-header">
+                            <h4>Chocolate Cake</h4>
+                            <span>Rs 550</span>
+                        </div>
+
+                        <p>
+                            Rich chocolate cake served with
+                            chocolate sauce and fresh berries.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Dish 6 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="dish-card">
+
+                    <img src="drinks.jpg" alt="Fresh Lemonade">
+
+                    <div class="dish-content">
+
+                        <div class="dish-header">
+                            <h4>Fresh Lemonade</h4>
+                            <span>Rs 350</span>
+                        </div>
+
+                        <p>
+                            Freshly squeezed lemon with mint,
+                            ice and a touch of sweetness.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Popular Dishes End -->
+
+<!-- Full Menu Start -->
+<section class="full-menu py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <p class="section-subtitle">Our Complete Menu</p>
+            <h2>Choose Your Favorite</h2>
+            <p class="section-description">
+                Freshly prepared dishes made with quality ingredients.
+            </p>
+        </div>
+
+
+        <!-- Pizza Menu -->
+        <div class="menu-section" id="pizza-menu">
+
+            <h3>Pizza</h3>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Margherita Pizza</h4>
+                            <p>Tomato sauce, mozzarella and fresh basil.</p>
+                        </div>
+                        <span>Rs. 1,400</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Chicken Tikka Pizza</h4>
+                            <p>Chicken tikka, mozzarella, onions and peppers.</p>
+                        </div>
+                        <span>Rs. 1,450</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Pepperoni Pizza</h4>
+                            <p>Pepperoni, mozzarella and our special tomato sauce.</p>
+                        </div>
+                        <span>Rs. 1,500</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>BBQ Chicken Pizza</h4>
+                            <p>BBQ chicken, onions, peppers and melted cheese.</p>
+                        </div>
+                        <span>Rs. 1,550</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Burger Menu -->
+        <div class="menu-section" id="burger-menu">
+
+            <h3>Burgers</h3>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Classic Beef Burger</h4>
+                            <p>Beef patty, lettuce, tomato, cheese and special sauce.</p>
+                        </div>
+                        <span>Rs. 850</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Chicken Burger</h4>
+                            <p>Crispy chicken fillet with lettuce and creamy sauce.</p>
+                        </div>
+                        <span>Rs. 750</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>BBQ Beef Burger</h4>
+                            <p>Grilled beef patty, BBQ sauce, cheese and onions.</p>
+                        </div>
+                        <span>Rs. 950</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Double Cheese Burger</h4>
+                            <p>Two beef patties with double cheese and special sauce.</p>
+                        </div>
+                        <span>Rs. 1,100</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Pasta Menu -->
+        <div class="menu-section" id="pasta-menu">
+
+            <h3>Pasta</h3>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Chicken Alfredo</h4>
+                            <p>Creamy Alfredo sauce, chicken and parmesan cheese.</p>
+                        </div>
+                        <span>Rs. 1,100</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Chicken Penne Pasta</h4>
+                            <p>Penne pasta with chicken and rich tomato sauce.</p>
+                        </div>
+                        <span>Rs. 1,050</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Arrabbiata Pasta</h4>
+                            <p>Pasta with spicy tomato sauce, garlic and herbs.</p>
+                        </div>
+                        <span>Rs. 900</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Creamy Mushroom Pasta</h4>
+                            <p>Mushrooms, creamy sauce, parmesan and fresh herbs.</p>
+                        </div>
+                        <span>Rs. 950</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Steak Menu -->
+        <div class="menu-section" id="steak-menu">
+
+            <h3>Steak</h3>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Grilled Beef Steak</h4>
+                            <p>Tender grilled steak served with vegetables and potatoes.</p>
+                        </div>
+                        <span>Rs. 2,800</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Pepper Steak</h4>
+                            <p>Grilled steak served with creamy pepper sauce.</p>
+                        </div>
+                        <span>Rs. 3,000</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Dessert Menu -->
+        <div class="menu-section" id="dessert-menu">
+
+            <h3>Desserts</h3>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Chocolate Cake</h4>
+                            <p>Rich chocolate cake served with chocolate sauce.</p>
+                        </div>
+                        <span>Rs. 550</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Cheesecake</h4>
+                            <p>Creamy cheesecake with a buttery biscuit base.</p>
+                        </div>
+                        <span>Rs. 600</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Drinks Menu -->
+        <div class="menu-section" id="drink-menu">
+
+            <h3>Drinks</h3>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Fresh Lemonade</h4>
+                            <p>Fresh lemon, mint, ice and a touch of sweetness.</p>
+                        </div>
+                        <span>Rs. 350</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="menu-item">
+                        <div>
+                            <h4>Fresh Mango Juice</h4>
+                            <p>Freshly prepared mango juice served chilled.</p>
+                        </div>
+                        <span>Rs. 400</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Full Menu End -->
+
+<!-- Special Offer Start -->
+<section class="menu-offer">
+
+    <div class="container">
+
+        <div class="menu-offer-content text-center">
+
+            <p class="section-subtitle">
+                Special Offer
+            </p>
+
+            <h2>Enjoy 20% Off Your First Order</h2>
+
+            <p>
+                Try our delicious dishes and enjoy a special discount
+                on your first visit to Bella Restaurant.
+            </p>
+
+            <a href="reservation.html" class="btn btn-warning">
+                Book a Table
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Special Offer End -->
+
+<!-- Footer Start -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- Restaurant Info -->
+            <div class="col-lg-4 col-md-6">
+
+                <h3 class="footer-title">
+                    🍴 Bella Restaurant
+                </h3>
+
+                <p>
+                    Delicious food, warm hospitality, and memorable
+                    dining experiences for you and your family.
+                </p>
+
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-6">
+
+                <h4 class="footer-heading">
+                    Quick Links
+                </h4>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">Menu</a>
+                    </li>
+
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Opening Hours -->
+            <div class="col-lg-3 col-md-6">
+
+                <h4 class="footer-heading">
+                    Opening Hours
+                </h4>
+
+                <div class="opening-hours">
+
+                    <p>
+                        <span>Monday - Friday</span>
+                        <span>11 AM - 10 PM</span>
+                    </p>
+
+                    <p>
+                        <span>Saturday</span>
+                        <span>11 AM - 11 PM</span>
+                    </p>
+
+                    <p>
+                        <span>Sunday</span>
+                        <span>12 PM - 10 PM</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div class="col-lg-3 col-md-6">
+
+                <h4 class="footer-heading">
+                    Contact Us
+                </h4>
+
+                <p>
+                    📍 Main Boulevard, Lahore
+                </p>
+
+                <p>
+                    📞 +92 300 1234567
+                </p>
+
+                <p>
+                    ✉️ info@bellarestaurant.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom text-center">
+
+            <p>
+                © 2026 Bella Restaurant. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- Footer End -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
